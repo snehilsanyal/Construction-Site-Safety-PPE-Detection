@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle']
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: construction-site-safety
+  version: 28
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/28
